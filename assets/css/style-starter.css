@@ -576,6 +576,13 @@ mark,
   height: auto;
 }
 
+.gallery-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
