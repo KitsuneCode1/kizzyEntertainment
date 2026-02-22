@@ -12,6 +12,7 @@ Author URL: http://w3layouts.com
  */
 :root {
   --blue: #007bff;
+  --lue: #006eff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -14017,11 +14018,12 @@ a.text-dark:focus {
   margin: 0;
   overflow: visible;
   clip: auto;
+  color: blue;
 }
 
 :root {
-  --primary-color: #60050c;
-  --secondary-color: #b30906;
+  --primary-color: #007bff;
+  --secondary-color: #006eff;
   --font-color: #777;
   --bg-color: #fff;
   --heading-color: #111;
@@ -14039,11 +14041,11 @@ a.text-dark:focus {
 }
 
 [data-theme="dark"] {
-  --primary-color: #60050c;
-  --secondary-color: #b30906;
+  --primary-color: #007bff;
+  --secondary-color: #006eff;
   --font-color: #aaa;
   --bg-color: #232220;
-  --heading-color:#f7f7f7;
+  --heading-color: ;
   --border-color: rgba(255, 255, 255, 0.2);
   --border-color-light: rgba(255, 255, 255, 0.1);
   --nav-color: #fff;
@@ -15038,7 +15040,7 @@ html[data-theme="dark"] .dark-logo {
   align-items: center;
   background-size: cover;
   -ms-background-size: cover;
-  background-image: linear-gradient(to right, rgb(12 6 3 / 75%), rgb(12 3 0 / 66%)), url(../images/banner.jpg);
+  background-image: linear-gradient(to right, rgb(12 6 3 / 75%), rgb(12 3 0 / 66%)), url(../images/banner-img.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top;
   background-attachment: fixed;
